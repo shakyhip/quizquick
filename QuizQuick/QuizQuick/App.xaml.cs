@@ -23,7 +23,7 @@ namespace QuizQuick
             if (!isLoggedIn)
             {
                 //Load if Not Logged In
-                MainPage = new NavigationPage(new LoginPage());
+                MainPage = new NavigationPage(new MainPage()); //Poner el login aqui
             }
             else
             {
