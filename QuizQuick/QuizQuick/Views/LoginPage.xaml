@@ -7,17 +7,17 @@
     <ContentPage.Content>
         <StackLayout Spacing="0" Padding="0,75,0,0">
 
-            <Grid>
+            <Grid Padding="50,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100" />
                 </Grid.RowDefinitions>
-                <Image Source="logo.png"/>
+                <Image Source="logo.png" HorizontalOptions="FillAndExpand"/>
             </Grid>
 
             <StackLayout Padding="0,25">
-                <Label FontSize="30"
-                   Text="Bienvenido"
-                   Style="{StaticResource LabelFontBoldConsoleGreen}"
+                <Label FontSize="Medium"
+                   Text="User:~ user$ say Bienvenido█"
+                   Style="{StaticResource LabelFontRegularConsoleGreen}"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    LineBreakMode="WordWrap"/>

@@ -29,9 +29,9 @@
                 <On Platform="iOS" Value="SourceCodePro-Bold"/>
             </OnPlatform>
 
-            <Style TargetType="Label" x:Key="LabelFontBoldConsoleGreen">
+            <Style TargetType="Label" x:Key="LabelFontRegularConsoleGreen">
                 <Setter Property="TextColor" Value="#3BDD00"/>
-                <Setter Property="FontFamily" Value="{StaticResource SourceCodeProBold}"/>
+                <Setter Property="FontFamily" Value="{StaticResource SourceCodeProRegular}"/>
             </Style>
 
             <!--Botones-->
