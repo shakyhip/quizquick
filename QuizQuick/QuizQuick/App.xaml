@@ -7,32 +7,35 @@
     <Application.Resources>
         <ResourceDictionary>
 
-            <!--Background Color App-->
+            <!--Background App-->
             <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
                 <Setter Property="BackgroundColor" Value="#220F31"/>
+                <Setter Property="Icon" Value="menu.png"/>
             </Style>
 
-            <!--Textos Normales-->
+            <!--Tipo de Letra Regular-->
             <OnPlatform x:TypeArguments="x:String" x:Key="SourceCodeProRegular">
                 <On Platform="Android" Value="SourceCodePro-Regular.ttf#Source Code Pro" />
                 <On Platform="iOS" Value="SourceCodePro-Regular"/>
             </OnPlatform>
 
+            <!--Textos Normales-->
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="#D070CB"/>
                 <Setter Property="FontFamily" Value="{StaticResource SourceCodeProRegular}"/>
             </Style>
 
             <!--Textos Titulos-->
-            <OnPlatform x:TypeArguments="x:String" x:Key="SourceCodeProBold">
-                <On Platform="Android" Value="SourceCodePro-Bold.ttf#Source Code Pro" />
-                <On Platform="iOS" Value="SourceCodePro-Bold"/>
-            </OnPlatform>
-
             <Style TargetType="Label" x:Key="LabelFontRegularConsoleGreen">
                 <Setter Property="TextColor" Value="#3BDD00"/>
                 <Setter Property="FontFamily" Value="{StaticResource SourceCodeProRegular}"/>
             </Style>
+
+            <!--Tipo de Letra Negrita-->
+            <OnPlatform x:TypeArguments="x:String" x:Key="SourceCodeProBold">
+                <On Platform="Android" Value="SourceCodePro-Bold.ttf#Source Code Pro" />
+                <On Platform="iOS" Value="SourceCodePro-Bold"/>
+            </OnPlatform>
 
             <!--Botones-->
             <Style TargetType="Button">

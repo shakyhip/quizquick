@@ -9,11 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace QuizQuick
 {
-    public partial class Inicio : ContentPage
-    {
-        public Inicio()
-        {
-            InitializeComponent();
-        }
-    }
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class CerrarPage : ContentPage
+	{
+		public CerrarPage ()
+		{
+			InitializeComponent ();
+		}
+	}
 }
